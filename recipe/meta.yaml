@@ -1,6 +1,6 @@
 {% set name = "iteration_utilities" %}
-{% set version = "0.0.8" %}
-{% set sha256 = "4e2964f27f5e2deb96232c7139a6d59aefd0eb130864546d98fce204959e834c" %}
+{% set version = "0.0.9" %}
+{% set sha256 = "d4d443bf67a386cb1d6fe79b39540fba948ddc9d44f3642c2cd3de6b09f3b0d7" %}
 
 package:
   name: {{ name|lower }}
