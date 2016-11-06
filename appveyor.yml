@@ -73,9 +73,19 @@ install:
 
     - cmd: conda config --set show_channel_urls true
     - cmd: conda install -c pelson/channel/development --yes --quiet obvious-ci
+    - cmd: conda install -n root --yes --quiet jinja2 conda-build anaconda-client=1.5.1
     - cmd: conda config --add channels conda-forge
-    - cmd: conda install -n root --quiet --yes conda-forge-build-setup
-    - cmd: run_conda_forge_build_setup
+    - cmd: set CPU_COUNT=2
+    - cmd: set PYTHONUNBUFFERED=1
+
+    - cmd: conda config --set show_channel_urls true
+    - cmd: conda config --set add_pip_as_python_dependency false
+
+    - cmd: conda update -n root --yes --quiet conda
+    - cmd: conda install -n root --yes --quiet conda-build=1
+
+    - cmd: conda info
+    - cmd: conda config --get
 
 # Skip .NET project specific build phase.
 build: off
