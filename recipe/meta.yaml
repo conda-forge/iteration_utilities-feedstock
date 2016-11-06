@@ -1,3 +1,4 @@
+{% set gitchannel = "MSeifert04" %}
 {% set name = "iteration_utilities" %}
 {% set version = "0.0.11" %}
 {% set sha256 = "f9dccd98f2785ca9914b39ff1267c4073d0dc3869c592024ebe8b7d0602e2f71" %}
@@ -34,6 +35,11 @@ test:
     - pytest
   imports:
     - iteration_utilities
+  commands:
+    - git clone https://github.com/{{ gitchannel }}/{{ name }}.git
+    - cd {{ name }}
+    - git checkout tags/v{{ version }}
+    - py.test tests
 
 about:
   home: https://github.com/MSeifert04/iteration_utilities
