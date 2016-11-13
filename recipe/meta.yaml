@@ -1,6 +1,6 @@
 {% set name = "iteration_utilities" %}
-{% set version = "0.0.11" %}
-{% set sha256 = "f9dccd98f2785ca9914b39ff1267c4073d0dc3869c592024ebe8b7d0602e2f71" %}
+{% set version = "0.0.12" %}
+{% set sha256 = "c36fca43bcb4707abbb07159ec1d13d4dd400d7b7a3bda8863f25eb3322926f6" %}
 
 package:
   name: {{ name|lower }}
@@ -39,7 +39,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE.rst
-  summary: 'Itertools recipes for Python 2/3 and more.'
+  summary: 'Utilities based on Pythons iterators and generators.'
   doc_url: http://iteration-utilities.rtfd.io
   dev_url: https://github.com/MSeifert04/iteration_utilities
 

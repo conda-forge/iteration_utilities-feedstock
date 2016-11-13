@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: Itertools recipes for Python 2/3 and more.
+Summary: Utilities based on Pythons iterators and generators.
 
 
 
@@ -31,7 +31,6 @@ It is possible to list all of the versions of `iteration_utilities` available on
 ```
 conda search iteration_utilities --channel conda-forge
 ```
-
 
 
 About conda-forge
