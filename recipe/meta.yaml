@@ -38,7 +38,7 @@ about:
   home: https://github.com/MSeifert04/iteration_utilities
   license: Apache-2.0
   license_family: Apache
-  license_file: LICENSE.rst
+  license_file: LICENSE.txt
   summary: 'Utilities based on Pythons iterators and generators.'
   doc_url: http://iteration-utilities.rtfd.io
   dev_url: https://github.com/MSeifert04/iteration_utilities
