@@ -1,6 +1,6 @@
 {% set name = "iteration_utilities" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "a291be8725076f8f65162ab93544e00d177642659538b95edc6fa8f398cfde1c" %}
+{% set version = "0.5.2" %}
+{% set sha256 = "63a82e4a93bb894dcfdfe335c01222acdc96963314d77101bf4d2ae44266fd8e" %}
 
 package:
   name: {{ name|lower }}
@@ -38,7 +38,7 @@ about:
   home: https://github.com/MSeifert04/iteration_utilities
   license: Apache-2.0
   license_family: Apache
-  license_file: LICENSE.rst
+  license_file: LICENSE.txt
   summary: 'Utilities based on Pythons iterators and generators.'
   doc_url: http://iteration-utilities.rtfd.io
   dev_url: https://github.com/MSeifert04/iteration_utilities
