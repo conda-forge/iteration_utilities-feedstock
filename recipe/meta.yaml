@@ -1,6 +1,6 @@
 {% set name = "iteration_utilities" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "63a82e4a93bb894dcfdfe335c01222acdc96963314d77101bf4d2ae44266fd8e" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "16d26d076fd7b517bd3597abc686f0b5f7b40d2231f840dd85ec12c158278eb3" %}
 
 package:
   name: {{ name|lower }}
@@ -24,12 +24,12 @@ requirements:
     - python
     - setuptools
     - toolchain
-    - pytest-runner
   run:
     - python
 
 test:
   requires:
+    - pytest-runner
     - pytest
   imports:
     - iteration_utilities
@@ -40,7 +40,7 @@ about:
   license_family: Apache
   license_file: LICENSE.txt
   summary: 'Utilities based on Pythons iterators and generators.'
-  doc_url: http://iteration-utilities.rtfd.io
+  doc_url: https://iteration-utilities.readthedocs.io/en/stable/
   dev_url: https://github.com/MSeifert04/iteration_utilities
 
 extra:
