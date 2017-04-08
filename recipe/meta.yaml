@@ -1,6 +1,6 @@
 {% set name = "iteration_utilities" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "63a82e4a93bb894dcfdfe335c01222acdc96963314d77101bf4d2ae44266fd8e" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "16d26d076fd7b517bd3597abc686f0b5f7b40d2231f840dd85ec12c158278eb3" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   features:
   - vc9  # [win and py27]
   - vc10  # [win and py34]
