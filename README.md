@@ -14,14 +14,16 @@ Summary: Utilities based on Pythons iterators and generators.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/iteration_utilities-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/iteration_utilities-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/iteration_utilities-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/iteration_utilities-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/iteration_utilities-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/iteration-utilities-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/iteration_utilities-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/iteration_utilities-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/iteration_utilities-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/iteration_utilities-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/iteration_utilities-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/iteration-utilities-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/iteration_utilities/badges/version.svg)](https://anaconda.org/conda-forge/iteration_utilities)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/iteration_utilities/badges/downloads.svg)](https://anaconda.org/conda-forge/iteration_utilities)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-iteration_utilities-green.svg)](https://anaconda.org/conda-forge/iteration_utilities) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/iteration_utilities.svg)](https://anaconda.org/conda-forge/iteration_utilities) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/iteration_utilities.svg)](https://anaconda.org/conda-forge/iteration_utilities) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/iteration_utilities.svg)](https://anaconda.org/conda-forge/iteration_utilities) |
 
 Installing iteration_utilities
 ==============================
