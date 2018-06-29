@@ -13,17 +13,14 @@ source:
 
 build:
   number: 0
-  features:
-  - vc9  # [win and py27]
-  - vc10  # [win and py34]
-  - vc14  # [win and py35]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
+    - {{ compiler('c') }}
+  host:
     - python
     - setuptools
-    - toolchain
   run:
     - python
 
