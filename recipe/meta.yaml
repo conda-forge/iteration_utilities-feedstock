@@ -1,6 +1,6 @@
 {% set name = "iteration_utilities" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "c7b53f36350515a95051eb22616e258ffe461ade31f0ba7d2cdc624de40d4718" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "b9b27f3e3924f9b3a8d9aa4614c97b2f828911aabec1d92dd9396428038781c0" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1002
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
