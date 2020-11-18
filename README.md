@@ -230,6 +230,3 @@ Feedstock Maintainers
 
 * [@MSeifert04](https://github.com/MSeifert04/)
 
-
-<!-- dummy commit to enable rerendering -->
-
