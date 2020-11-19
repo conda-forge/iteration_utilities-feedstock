@@ -1,6 +1,6 @@
 {% set name = "iteration_utilities" %}
-{% set version = "0.10.1" %}
-{% set sha256 = "536e3e87c5c139c775f9d95bb771c4b366a1d58eb7a39436d4ac839b53742569" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "f91f41a2549e9a7e40ff5460fdf9033b6ee5b305d9be77943b63a554534c2a77" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [py27]
 
 requirements:
@@ -37,7 +37,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE.txt
-  summary: 'Utilities based on Pythons iterators and generators.'
+  summary: Utilities based on Pythons iterators and generators.
   doc_url: https://iteration-utilities.readthedocs.io/en/stable/
   dev_url: https://github.com/MSeifert04/iteration_utilities
 
