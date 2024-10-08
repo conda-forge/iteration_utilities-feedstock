@@ -1,6 +1,6 @@
 {% set name = "iteration_utilities" %}
-{% set version = "0.12.1" %}
-{% set sha256 = "a17bd698bc65b796b265e56f02a8d71f517716dc066a4c507e12563795bfe3bd" %}
+{% set version = "0.13.0" %}
+{% set sha256 = "4be84b9846b5dcd607be769fd014daa107824d7f64c09694a22bf3cd5ab881dc" %}
 
 package:
   name: {{ name|lower }}
@@ -20,6 +20,7 @@ requirements:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
